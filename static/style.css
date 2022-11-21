@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Francois+One&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    margin: 0 14px;
+    height: 42px;
+}
+
+#navbar{
+    background-color: rgb(20, 20, 20);
+    padding: 13px;
+    font-family: 'Francois One', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+ #navbar li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding:7px 18px;
+    font-size: 18px;
+ }
+ 
+ #navbar li a:hover{
+    color: grey;
+    font-size: 20px;
+    
+}
+
+ #introSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    background: url("/static/Images/img.jpg") center/cover no-repeat; 
+    /* background-size: cover; */
+    height: 430px;
+    background-color: rgb(148, 17, 17);
+ }
+ 
+ #ourMission{
+    height: 320px;
+    width: 67%;
+    margin: auto;
+
+ }
+
+ #ourMission h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Francois One', sans-serif;
+    
+ }
+
+ .card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 13px;
+    height: 210px;
+ }
+ 
+ .card h3{
+    text-align: center;
+
+ }
+.card-box{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.card-img{
+  height: 110px;
+   padding: 8px 11px;
+   margin: 5px 9px;
+}
+
+ .card-img img{
+   height: inherit;
+   
+}
+.card-content p{
+   font-size: 17px;
+   margin-top: 3px;
+}
+
+ #sponsorsSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 270px;
+    background-color: yellow;
+ }
+
+ #sponsorsSection h2{
+    font-family: 'Francois One', sans-serif;
+    margin-top: 15px;
+ }
+
+ #sponsors{
+   height: 150px;
+   max-width: 1000px;
+   margin: auto;
+ }
+
+#sponsors img{
+   height: 80px;
+   margin-top: 5px;
+}
+ 
+ #footer{
+    height: 55px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    padding: 20px;
+ }
+

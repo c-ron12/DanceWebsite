@@ -1,0 +1,63 @@
+doctype html 
+html 
+  head 
+     style 
+       include ../static/style.css 
+  body 
+    nav#navbar 
+        ul  
+            div#logo
+                img(src="/static/Images/logo.png")
+
+            li #[a(href="/") Home ]
+            li #[a(href="/") Gallery ]
+            li #[a(href="/") Our Services ]
+            li #[a(href="/") About Us ]
+            li #[a(href="/") Contact Us ]
+    
+    section#introSection 
+        div Welcome to Ron's Dance Academy
+        div Passion for Dance
+
+section#ourMission
+        h2 Our Mission
+        div.card 
+            h3 Dance perfection
+            div.card-box
+              div.card-img
+                img(src="/static/Images/pic1.png")
+              div.card-content
+               p We are one of well known dance academy of the valley and  we strike for perfection.
+
+        div.card 
+            h3 Dance the way you like
+            div.card-box
+              div.card-img
+                img(src="/static/Images/pic2.png")
+              div.card-content
+               p We are one of well known dance academy of the valley and  we strike for perfection.
+          
+        div.card 
+            h3 Expert teaching
+            div.card-box
+              div.card-img
+                img(src="/static/Images/pic3.png")
+              div.card-content
+               p We are one of well known dance academy of the valley and  we strike for perfection.
+
+       
+section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors
+          img(src="static/Images/logo2.png", alt="")
+          img(src="static/Images/logo3.png", alt="")
+          img(src="static/Images/logo4.png", alt="")
+          img(src="static/Images/logo5.png", alt="")
+          img(src="static/Images/logo6.png", alt="")
+
+
+footer#footer
+        | Copyright © 2022 rondanceacademy.com | All rights reserved
+      
+script 
+    include ../static/index.js 
