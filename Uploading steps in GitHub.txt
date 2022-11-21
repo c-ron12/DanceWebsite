@@ -1,0 +1,17 @@
+. touch .gitignore
+. git config --global user.name c-ron12
+. git config --global user.email "pioneerboy912@gmail.com
+. git init
+. git add . (goes to staging area excluding .gitignore and .git file)
+. git commit -m "Initial Commit"
+. git statis # Just to see
+. ssh-keygen -t ed25519 -C "pioneerboy912@gmail.com", by typing this command  it creates the key pair and
+  the directory.
+  after, it asks for a passphrase which can be set empty just by hitting enter two times.
+. cat #copy public key saved path from above exm- .ssh/id_ed25519/pub and hit enter.
+. Generates the special key which you need to add to your Github Account.
+. git remote add origin <ssh url.git>
+. git push origin master
+
+finally your project reaches to github
+
